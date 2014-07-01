@@ -3,17 +3,20 @@
 
   {% include head.html %}
 
-    <body>
+    <body unresolved touch-action="auto">
 
-    {% include header.html %}
+    <core-scroll-header-panel condenses>
 
-    <div class="page-content">
-      <div class="wrap">
-      {{ content }}
-      </div>
-    </div>
+        {% include header.html %}
 
-    {% include footer.html %}
+        <div class="content">
+            {{ content }}
+
+            {% include footer.html %}
+        </div>
+
+    </core-scroll-header-panel>
 
     </body>
+
 </html>
