@@ -4,7 +4,7 @@
     <div flex></div>
     <paper-fab id="avatar"></paper-fab>
 
-    <paper-tabs class="bottom" valueattr="name" selected="home" self-end>
+    <paper-tabs id="headerTabs" class="bottom" valueattr="name" selected="home" self-end>
         <paper-tab name="home">Home</paper-tab>
         <paper-tab name="skills">Skills</paper-tab>
         <paper-tab name="experience">Experience</paper-tab>
@@ -18,15 +18,19 @@
 
 var headerTitleStyle = document.querySelector('#headerTitle').style;
 var iconStyle = document.querySelector('#avatar').style;
+var tabsStyle = document.querySelector('#headerTabs').style;
+
 addEventListener('core-header-transform', function(e) {
 
     var d = e.detail;
     var m = d.height - d.condensedHeight;
-    var progress = Math.max(0.75, (m - d.y) / (m / 0.25)  + 0.75);
+    var progress = 1 - (d.y / m);
+    progress = (progress < 0) ? 0 : progress;
 
-    console.log(progress);
+    var tabOpacity = 0.65 * progress;
+    tabsStyle.backgroundColor = 'rgba(0, 0, 0, ' + tabOpacity + ')';
 
-    if (progress <= 0.75)
+    if (progress <= 0.25)
     {
         headerTitleStyle.display = 'none';
         iconStyle.display = 'inherit';

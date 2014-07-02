@@ -38,6 +38,7 @@ core-toolbar {
 
 paper-tabs {
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -67,6 +68,10 @@ paper-tabs paper-tab::shadow #ink {
     border-bottom-left-radius: 2px;
     box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 4px, rgba(0, 0, 0, 0.0980392) 0px 0px 3px;
     background-color: rgb(255, 255, 255);
+}
+
+#headerTitle {
+    font-size: xx-large;
 }
 
 @media (min-width: 481px) {
