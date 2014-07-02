@@ -11,6 +11,25 @@ core-scroll-header-panel {
   -webkit-overflow-scrolling: touch;
 }
 
+core-scroll-header-panel::shadow #headerBg {
+    background-image: url(/assets/images/header_background.jpg);
+}
+
+paper-fab#avatar {
+    background-image: url(/assets/images/avatar.jpg);
+    background-size: cover;
+    display: none;
+    visibility: hidden;
+}
+
+core-scroll-header-panel::shadow #condensedHeaderBg {
+    background-color: #015cb5;
+}
+
+core-scroll-header-panel::shadow #headerContent::content > * {
+  background: transparent;
+}
+
 core-toolbar {
   background: #03a9f4;
   color: white;
@@ -23,6 +42,14 @@ paper-tabs {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+paper-tabs::shadow #selectionBar {
+    background-color: #fdad58;
+}
+
+paper-tabs paper-tab::shadow #ink {
+  color: #fdad58;
 }
 
 .container {
@@ -50,6 +77,10 @@ paper-tabs {
 
   .core-card {
       width: 300px;
+  }
+
+  paper-fab#avatar {
+      visibility: visible;
   }
 
 }

@@ -1,10 +1,11 @@
 <core-toolbar class="tall">
 
-    <div class="content">{{ site.title }}</div>
+    <div id="headerTitle" class="content">{{ site.title }}</div>
+    <div flex></div>
+    <paper-fab id="avatar"></paper-fab>
 
     <paper-tabs class="bottom" valueattr="name" selected="home" self-end>
         <paper-tab name="home">Home</paper-tab>
-        <paper-tab name="about">About</paper-tab>
         <paper-tab name="skills">Skills</paper-tab>
         <paper-tab name="experience">Experience</paper-tab>
         <paper-tab name="portfolio">Portfolio</paper-tab>
@@ -12,3 +13,28 @@
     </paper-tabs>
 
 </core-toolbar>
+
+<script>
+
+var headerTitleStyle = document.querySelector('#headerTitle').style;
+var iconStyle = document.querySelector('#avatar').style;
+addEventListener('core-header-transform', function(e) {
+
+    var d = e.detail;
+    var m = d.height - d.condensedHeight;
+    var progress = Math.max(0.75, (m - d.y) / (m / 0.25)  + 0.75);
+
+    console.log(progress);
+
+    if (progress <= 0.75)
+    {
+        headerTitleStyle.display = 'none';
+        iconStyle.display = 'inherit';
+    } else
+    {
+        headerTitleStyle.display = 'inherit';
+        iconStyle.display = 'none';
+    }
+});
+
+</script>
