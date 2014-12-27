@@ -8,12 +8,17 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-    <script>
-        var host = "iheart2code.github.io";
-
-        if ((host === window.location.host) && (window.location.protocol !== "https:"))
-            window.location.protocol = "https";
-    </script>
+    {% if site.enforce_ssl %}
+      <!--
+        redirect users to the https version of the website.
+        but: only check when on the production domain, as set in _config.yml.
+       -->
+      <script type="text/javascript">
+        var enforce = "{{ site.enforce_ssl }}";
+        if ((enforce == window.location.host) && (window.location.protocol != "https:"))
+          window.location = window.location.toString().replace(/^http:/, "https:");
+      </script>
+    {% endif %}
 
     <!-- Polymer -->
     <script src="{{ "/assets/components/platform/platform.js" | prepend: site.baseurl }}"></script>
