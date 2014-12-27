@@ -23,6 +23,12 @@
 
 <script>
 
+var headerTabs = document.querySelector('#headerTabs');
+var selectedTab = window.location.pathname.replace(/^\/([^\/]*).*$/, '$1');
+
+if (selectedTab !== null && selectedTab.length !== 0)
+    headerTabs.setAttribute("selected", selectedTab);
+
 var headerTitleStyle = document.querySelector('#headerTitle').style;
 var iconStyle = document.querySelector('#avatar').style;
 var tabsStyle = document.querySelector('#headerTabs').style;
