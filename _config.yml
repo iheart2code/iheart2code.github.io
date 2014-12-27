@@ -1,11 +1,12 @@
 # Site settings
 title: Jeremy White
 subtitle: Senior Mobile Developer
-email: ten90jwhite@gmail.com
+email: jeremy.ro.white@gmail.com
 username: iheart2code
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "I serve as a switch hitter, providing expertise in iOS, Android, and web development as well as serving in a senior role. I am currently focusing my efforts on iOS development and leading Idean's mobile team."
 baseurl: ""
-url: "http://thejeremywhite.com"
+url: "https://www,thejeremywhite.com"
 
 # Build settings
 markdown: kramdown
+permalink: /portfolio/:year/:month/:day/:title.html
