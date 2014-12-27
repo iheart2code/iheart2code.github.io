@@ -57,6 +57,11 @@ paper-tabs paper-tab::shadow #ink {
   color: #fdad58;
 }
 
+paper-tabs paper-tab a { color: white; }
+paper-tabs paper-tab a:visited { color: white; }
+paper-tabs paper-tab a:hover { color: white; text-decoration: none; }
+paper-tabs paper-tab a:active { color: white; }
+
 .container {
   width: 80%;
   margin: 50px auto;
