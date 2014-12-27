@@ -10,3 +10,7 @@ url: "https://www,thejeremywhite.com"
 # Build settings
 markdown: kramdown
 permalink: /portfolio/:year/:month/:day/:title.html
+exclude:
+- Gemfile
+- Gemfile.lock
+- bower.json
