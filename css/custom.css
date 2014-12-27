@@ -5,6 +5,11 @@ html,body {
   font-family: 'RobotoDraft', sans-serif;
 }
 
+.post {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 core-scroll-header-panel {
   height: 100%;
   overflow: auto;
