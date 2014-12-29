@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Android Tablet Product Launch
+date: 2010-06-30
 tags:
 - prototype
 - Flash

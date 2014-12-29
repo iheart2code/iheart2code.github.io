@@ -8,9 +8,17 @@ baseurl: ""
 url: "https://thejeremywhite.com"
 enforce_ssl: thejeremywhite.com
 
+# Collections
+collections: 
+  blog:
+    output: true
+    permalink: /:collection/:path.html
+  work:
+    output: true
+    permalink: /:collection/:path.html
+
 # Build settings
 markdown: kramdown
-permalink: /portfolio/:year/:month/:day/:title.html
 exclude:
 - Gemfile
 - Gemfile.lock

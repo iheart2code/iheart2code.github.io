@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Corporate Website
+date: 2013-05-19
 tags:
 - product
 - web

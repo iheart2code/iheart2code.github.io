@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Internal Talent Database
+date: 2012-11-15
 tags:
 - product
 - front-end

@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Portfolio
-permalink: /portfolio/
+title: Blog
+permalink: /blog/
 ---
 
 <div class="home">
 
   <div class="container" layout horizontal start wrap around-justified>
-    {% for post in site.posts %}
+    {% for post in site.blog %}
 
     <div class="core_card" layout vertical center center-justified>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>

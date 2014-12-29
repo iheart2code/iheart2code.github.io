@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Stage Demo at a Major Tradeshow
+date: 2013-02-30
 tags:
 - prototype
 - Flash

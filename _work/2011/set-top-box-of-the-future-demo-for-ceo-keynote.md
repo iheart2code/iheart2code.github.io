@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Set-top Box of the Future Demo for CEO Keynote
+date: 2011-01-05
 tags:
 - prototype
 - Android

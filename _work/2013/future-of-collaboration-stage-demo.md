@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Future of Collaboration Stage Demo
+date: 2013-05-28
 tags:
 - prototype
 - Flash
