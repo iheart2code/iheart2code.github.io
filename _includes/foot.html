@@ -1,28 +1,4 @@
 
-<!-- Defer loading of styles until page is loaded & rendered -->
-
-<script>
-    var cb = function() {
-        var stylesheets = [ 
-            '/css/normalize.css',
-            '/css/site.css'
-        ];
-
-        for (var href in stylesheets) {
-            var link = document.createElement('link');
-            link.rel = 'stylesheet';
-            link.href = stylesheets[href];
-
-            var head = document.getElementsByTagName('head')[0];
-            head.parentNode.insertBefore(link, head);
-        }
-    };
-
-    var raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
-
-    if (raf) {
-        raf(cb);
-    } else {
-        window.addEventListener('load', cb);
-    }
-</script>
+<!-- Custom CSS -->
+<link rel="stylesheet" href="{{ "/css/normalize.css" | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ "/css/site.css" | prepend: site.baseurl }}">
