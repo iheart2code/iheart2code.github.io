@@ -132,3 +132,11 @@ footer {
     clear: both;
     text-align: center;
 }
+
+#logos {
+    padding: 60px 0;
+}
+
+#logos a {
+    padding: 0 60px;
+}
