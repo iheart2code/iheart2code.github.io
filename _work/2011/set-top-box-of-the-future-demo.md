@@ -11,6 +11,7 @@ tags:
 status: publish
 type: post
 published: true
+has_sidebar: true
 blurb: Demo of new consumer telepresence system and content delivery platform. Developed under short timeline for keynote audience.
 ---
 ## Overview

@@ -9,6 +9,7 @@ tags:
 status: publish
 type: post
 published: true
+has_sidebar: true
 blurb: High stakes Android tablet product launch demo. Demo was presented during the Cisco Live! keynote in 2010.
 ---
 ## Overview

@@ -10,6 +10,7 @@ tags:
 status: publish
 type: post
 published: true
+has_sidebar: true
 blurb: Extremely technical stage demo that uses a single laptop to demonstrate a highly technical back-end platform. Attention to detail was key, as the content of these two demos were moving targets leading up to the week of the show.
 ---
 ## Overview

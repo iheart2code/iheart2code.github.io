@@ -9,6 +9,7 @@ tags:
 status: publish
 type: post
 published: true
+has_sidebar: true
 blurb: Series of short video tutorials onboarding users to features of new desk phone.
 ---
 ## Overview

@@ -10,6 +10,7 @@ tags:
 status: publish
 type: post
 published: true
+has_sidebar: true
 blurb: Forward-looking demo showing the use of sensors to change communication presence/preference in Cisco Jabber.
 ---
 ## Overview
