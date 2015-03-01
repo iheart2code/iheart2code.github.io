@@ -9,6 +9,7 @@ tags:
 - back-end
 type: post
 published: true
+blurb: An iPad application to serve as a mobility news hub, providing mobility surveys and interactive workshops.
 ---
 ## Overview
 

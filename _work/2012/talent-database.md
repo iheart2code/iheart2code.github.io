@@ -10,6 +10,7 @@ tags:
 status: publish
 type: post
 published: true
+blurb: Internal, online database for managing acting and voice talent. Application included system-wide search, user account management with multiple user roles, rating system, filters, file upload to Amazon S3, and multimedia storage and playback.
 ---
 ## Overview
 

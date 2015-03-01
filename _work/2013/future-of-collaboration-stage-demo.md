@@ -10,10 +10,11 @@ tags:
 status: publish
 type: post
 published: true
+blurb: Forward-looking demo showing the use of sensors to change communication presence/preference in Cisco Jabber.
 ---
 ## Overview
 
-This demo was done for a Cisco VP at Cisco Live! London 2013. It was a forward-looking demo showing the use of sensors in changing communication presence/preference in Cisco Jabber.
+This demo was done for a Cisco VP at Cisco Live! London 2013. It was a forward-looking demo showing the use of sensors to change communication presence/preference in Cisco Jabber.
 
 This demo uses a multi-touch display, an iPad, EX90 workstation, networking equipment, and several webcams to demonstrate how a user's IM presence changes based on various user postures (door open/closed, phone on desk, phone in pocket, etc). The multi-touch display shows a futuristic, OS-agnostic approach to collaboration and video communication.
 

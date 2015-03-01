@@ -9,6 +9,7 @@ tags:
 status: publish
 type: post
 published: true
+blurb: Front-facing corporate website to spec from designers. Ensured a consistent experience across different browsers, operating systems, device types, and screen sizes.
 ---
 ## Overview
 

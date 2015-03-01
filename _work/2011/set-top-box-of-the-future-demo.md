@@ -11,8 +11,10 @@ tags:
 status: publish
 type: post
 published: true
+blurb: Demo of new consumer telepresence system and content delivery platform. Developed under short timeline for keynote audience.
 ---
 ## Overview
+
 This was a high stakes, short deadline stage demo for a high-profile crowd. The work was done at the behest of Cisco's CEO John Chambers for presentation at his CES keynote in 2011.
 
 This project uses HD displays, web cameras, and video, as well as an arrangement of mobile devices to illustrate the future's seamless video experience.

@@ -11,6 +11,7 @@ tags:
 - back-end
 type: post
 published: true
+blurb: Led architecture &amp; implementation of normalized, cross-platform, multi-protocol SDK for second screen devices.
 ---
 ## Overview
 
