@@ -8,6 +8,28 @@
 
 /* Header */
 
+header {
+    background-color: #2F3E55;
+    color: #F4F5F0;
+    padding: 135px 0 20px 0;
+}
+
+/* TODO: adjust at each breakpoint */
+header > .content > .title, .subtitle {
+    width: 80%;
+}
+
+header > .content > .title {
+    font-size: xx-large;
+    padding-bottom: 20px;
+}
+
+header > .content > .subtitle {
+    font-size: x-large;
+}
+
+/* Nav bar */
+
 #nav {
     position: absolute;
     top: 0px;
@@ -31,24 +53,39 @@ ul#nav {
     padding: 20px;
 }
 
-header {
-    background-color: #2F3E55;
-    color: #F4F5F0;
-    padding: 135px 0 20px 0;
+/* Nav bar drop down support */
+
+ul#nav ul {
+    display:none;
+    float: right;
+    position:absolute;
+    top:100%;
+    right:0;
+    background:#2F3E55;
 }
 
-/* TODO: adjust at each breakpoint */
-header > .content > .title, .subtitle {
-    width: 80%;
+ul#nav li:hover > ul {
+    display: block;
 }
 
-header > .content > .title {
-    font-size: xx-large;
-    padding-bottom: 20px;
+ul#nav ul li {
+    position:relative;
+    display: block;
+    padding: 10px;
+    width: 200px;
+    text-align: right;
 }
 
-header > .content > .subtitle {
-    font-size: x-large;
+ul#nav ul a
+{
+    line-height:120%;
+    padding:10px 15px
+}
+
+ul#nav ul ul
+{
+    top:0;
+    left:100%
 }
 
 /* Content */
