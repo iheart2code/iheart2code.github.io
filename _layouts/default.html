@@ -10,12 +10,19 @@
         {% include header.html %}
 
         <div class="content">
-            {{ content }}
-        </div>
 
-        {% if page.has_sidebar == true %}
-        {% include sidebar.html %}
-        {% endif %}
+            {% if page.has_sidebar == true %}
+
+            <div class="page_content">
+                {{ content }}
+            </div>
+
+            {% include sidebar.html %}
+            {% else %}
+            {{ content }}
+            {% endif %}
+
+        </div>
 
         {% include footer.html %}
 

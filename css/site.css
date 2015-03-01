@@ -95,6 +95,12 @@ ul#nav ul ul
     margin: 0 auto 0 auto;
 }
 
+.page_content {
+    display: inline-block;
+    float: left;
+    width: 75%;
+}
+
 /* Includes */
 
 .youtube_wrapper {
@@ -115,11 +121,14 @@ ul#nav ul ul
 /* Sidebar */
 
 .sidebar {
-    
+    display: inline-block;
+    float: left;
+    width: 25%;
 }
 
 /* Footer */
 
 footer {
+    clear: both;
     text-align: center;
 }
