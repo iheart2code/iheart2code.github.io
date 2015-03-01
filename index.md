@@ -1,10 +1,13 @@
 ---
-layout: page
+layout: default
+header_title: _____________ Developer
+header_subtitle: I serve as a switch hitter, providing expertise in iOS, Android, and web development as well as serving in a senior role.
+has_sidebar: true
 ---
-I like to tell people that I have been programming for 15 years. I, being under 30 years of age, can acknowledge that this statement may sound a bit misleading, but it does bear a great bit of truth.
+Currently, I use Objective-C consectetur adipiscing elit. Praesent scelerisque, ante egestas interdum faucibus, risus tellus maximus enim, sed viverra arcu neque a sapien. Nam vitae consequat eros. In egestas nisl purus. Sed et mauris id dolor molestie accumsan at non arcu.
 
-I started teaching myself HTML at age 11 with the help of AOL and its dreaded Personal Publisher. From there I quickly learned most of what HTML had to offer (which, in 1997 was relatively little). It soon became apparent that HTML was to serve as a "gateway language" for me. Fast forward to three years later, and I'm sitting in the front seat of my mom's SUV on the long road from central California to Montana. I've got a cheap, hand-me-down laptop &amp; a few Visual QuickStart Guides, and have rolled my own family website, complete with a custom message board.
+***Front-end development*** Vestibulum facilisis ut justo ac convallis. Praesent lobortis id ante id luctus. Vestibulum quis consectetur metus. Cras laoreet lacinia ex ut blandit. Curabitur porttitor lacus ipsum, a elementum sem placerat vel. Sed ligula urna, feugiat sed congue ac, iaculis eu velit. Morbi molestie mi non pharetra placerat.
 
-My early experiences started out as trying to figure out how the web worked. Those types of experiences continued through my teens and blossomed into a full-time career encompassing the development of websites, web applications, mobile apps, prototypes, and concept demos. My work has benefited many people, from restaurant owners to Fortune 500 C-level executives. The equipment I've worked with has ranged from a generic desktop to mobile phone to hand-built prototype.
+***Full-stack development*** Suspendisse bibendum, lorem nec lacinia vestibulum, justo velit vulputate felis, eget faucibus nisi nisi a quam. Pellentesque gravida est risus, in sollicitudin elit elementum eu. Ut scelerisque, mauris sed ultricies aliquam, orci lectus pretium orci, id ultrices nibh libero in neque.
 
-Over the years I have worked with many different languages and technologies. I am always learning and keeping my ear to the ground on industry news. An ideal position in the workplace will keep me at the bleeding-edge of technology, working on projects that make people's lives easier.
+***Devops*** Pellentesque pharetra euismod neque, dapibus tempus velit laoreet in. Nullam at porttitor enim. Nullam porta, augue sed laoreet sollicitudin, lectus tortor mollis ligula, nec vulputate tellus nunc vitae felis. Nulla consectetur id arcu vel ultrices. Suspendisse maximus, nunc eget laoreet pharetra, felis dolor vehicula elit, vel mattis massa velit eu nisi.

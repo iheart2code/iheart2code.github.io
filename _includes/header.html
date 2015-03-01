@@ -1,62 +1,15 @@
-<core-toolbar class="tall">
+<header>
+    <ul id="nav">
+        <li><a href="/">About</a></li>
+        <li><a href="/work">Work</a></li>
+        <li><a href="#">Resume</a></li>
+    </ul>
 
-    <div id="headerTitle" class="content">{{ site.title }}</div>
-    <div flex></div>
-    <paper-fab id="avatar"></paper-fab>
+    <div class="content">
+        <div class="title">{{ page.header_title }}</div>
 
-    <paper-tabs id="headerTabs" class="bottom" valueattr="name" selected="home" self-end>
-        <paper-tab name="home">
-            <a href="/" horizontal center-center layout>Home</a>
-        </paper-tab>
-        <!--
-        <paper-tab name="blog">
-            <a href="/blog" horizontal center-center layout>Blog</a>
-        </paper-tab>
-        -->
-        <paper-tab name="work">
-            <a href="/work" horizontal center-center layout>Work</a>
-        </paper-tab>
-        <paper-tab name="resume">
-            <a href="/resume" horizontal center-center layout>Resume</a>
-        </paper-tab>
-        <paper-tab name="contact">
-            <a href="/contact" horizontal center-center layout>Contact</a>
-        </paper-tab>
-    </paper-tabs>
-
-</core-toolbar>
-
-<script>
-
-var headerTabs = document.querySelector('#headerTabs');
-var selectedTab = window.location.pathname.replace(/^\/([^\/]*).*$/, '$1');
-
-if (selectedTab !== null && selectedTab.length !== 0)
-    headerTabs.setAttribute("selected", selectedTab);
-
-var headerTitleStyle = document.querySelector('#headerTitle').style;
-var iconStyle = document.querySelector('#avatar').style;
-var tabsStyle = document.querySelector('#headerTabs').style;
-
-addEventListener('core-header-transform', function(e) {
-
-    var d = e.detail;
-    var m = d.height - d.condensedHeight;
-    var progress = 1 - (d.y / m);
-    progress = (progress < 0) ? 0 : progress;
-
-    var tabOpacity = 0.65 * progress;
-    tabsStyle.backgroundColor = 'rgba(0, 0, 0, ' + tabOpacity + ')';
-
-    if (progress <= 0.25)
-    {
-        headerTitleStyle.display = 'none';
-        iconStyle.display = 'inherit';
-    } else
-    {
-        headerTitleStyle.display = 'inherit';
-        iconStyle.display = 'none';
-    }
-});
-
-</script>
+        {% if page.header_subtitle %}
+        <div class="subtitle">{{ page.header_subtitle }}</div>
+        {% endif %}
+    </div>
+</header>

@@ -1,34 +1,33 @@
 <head>
 
-    <!-- Meta info -->
+    <!-- Meta -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="{{ site.description }}">
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <title>{% if page.title %}{{ page.title }} -- {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-    {% if site.enforce_ssl %}
-      <!--
-        redirect users to the https version of the website.
-        but: only check when on the production domain, as set in _config.yml.
-       -->
-      <script type="text/javascript">
-        var enforce = "{{ site.enforce_ssl }}";
-        if ((enforce == window.location.host) && (window.location.protocol != "https:"))
-          window.location = window.location.toString().replace(/^http:/, "https:");
-      </script>
-    {% endif %}
+    <!-- Open Graph -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} -- {% endif %}{{ site.title }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:url" content="http://thejeremywhite.com/index.html">
+    <meta property="og:site_name" content="{{ site.title }}">
 
-    <!-- Polymer -->
-    <link rel="import" href="{{ "/assets/components/font-roboto/roboto.html" | prepend: site.baseurl }}">
-    <link rel="import" href="{{ "/assets/components/core-scroll-header-panel/core-scroll-header-panel.html" | prepend: site.baseurl }}">
-    <link rel="import" href="{{ "/assets/components/core-toolbar/core-toolbar.html" | prepend: site.baseurl }}">
-    <link rel="import" href="{{ "/assets/components/paper-tabs/paper-tabs.html" | prepend: site.baseurl }}">
-    <link rel="import" href="{{ "/assets/components/paper-fab/paper-fab.html" | prepend: site.baseurl }}">
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="http://thejeremywhite.com/images/">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} -- {% endif %}{{ site.title }}">
+    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:creator" content="@{{ site.username }}">
+
+    <!-- Mobile http://t.co/dKP3o1e -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ "/css/custom.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/normalize.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/site.css" | prepend: site.baseurl }}">
 
 </head>

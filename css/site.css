@@ -1,0 +1,71 @@
+/* General */
+
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+#nav {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: white;
+}
+
+ul#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0;
+}
+
+#nav li {
+    display: inline;
+    width: 60px;
+    padding: 20px;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    padding: 135px 0 20px 0;
+}
+
+/* TODO: adjust at each breakpoint */
+header > .content > .title, .subtitle {
+    width: 80%;
+}
+
+header > .content > .title {
+    font-size: xx-large;
+    padding-bottom: 20px;
+}
+
+header > .content > .subtitle {
+    font-size: x-large;
+}
+
+/* Content */
+
+.content {
+    max-width: 1215px;
+    margin: 0 auto 0 auto;
+}
+
+/* Sidebar */
+
+.sidebar {
+    
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+}

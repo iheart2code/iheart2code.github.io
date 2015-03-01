@@ -3,20 +3,24 @@
 
   {% include head.html %}
 
-    <body unresolved touch-action="auto">
+<body>
 
-    <core-scroll-header-panel condenses>
+    <div class="container">
 
         {% include header.html %}
 
         <div class="content">
             {{ content }}
-
-            {% include footer.html %}
         </div>
 
-    </core-scroll-header-panel>
+        {% if page.has_sidebar == true %}
+        {% include sidebar.html %}
+        {% endif %}
 
-    </body>
+        {% include footer.html %}
+
+    </div>
+
+</body>
 
 </html>
