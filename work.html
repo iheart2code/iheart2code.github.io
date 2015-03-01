@@ -1,0 +1,21 @@
+---
+layout: default
+title: Work
+permalink: /work/
+header_title: Recent Work
+header_subtitle: 9 projects
+---
+
+{% for post in site.work %}
+
+<div class="post_abstract">
+
+    <a href="{{ post.url | prepend: site.baseurl }}"><h1>{{ post.title }}</h1></a>
+
+    <p>{{ post.blurb }}</p>
+
+    <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+
+</div>
+
+{% endfor %}
