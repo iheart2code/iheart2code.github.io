@@ -16,7 +16,7 @@
 
 #nav a {
     text-decoration: none;
-    color: white;
+    color: #F4F5F0;
 }
 
 ul#nav {
@@ -32,8 +32,8 @@ ul#nav {
 }
 
 header {
-    background-color: blue;
-    color: white;
+    background-color: #2F3E55;
+    color: #F4F5F0;
     padding: 135px 0 20px 0;
 }
 
