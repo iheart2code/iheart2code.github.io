@@ -122,6 +122,11 @@ ul#nav ul ul {
     height: auto;
 }
 
+.post_title {
+    text-decoration: none;
+    color: #2B2C30;
+}
+
 /* Includes */
 
 .youtube_wrapper {
