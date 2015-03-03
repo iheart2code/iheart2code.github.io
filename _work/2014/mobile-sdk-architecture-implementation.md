@@ -18,7 +18,7 @@ blurb: Led architecture &amp; implementation of normalized, cross-platform, mult
 
 Led architecture &amp; implementation of normalized, cross-platform, multi-protocol SDK for second screen devices called [Connect SDK](http://www.connectsdk.com/).
 
-Connect SDK is an open source framework that connects your mobile apps with multiple TV platforms. Because most TV platforms support a variety of protocols, Connect SDK integrates and abstracts the discovery and connectivity between all supported protocols.
+Connect SDK is an open source framework that connects your mobile apps with multiple TV platforms. Because most TV platforms support a variety of protocols, Connect SDK integrates and abstracts the discovery and connectivity between all supported protocols. Designed to support the growth of the SDK to include any discoverable, non-TV device type (wireless speakers, thermostats, light bulbs, cars, etc).
 
 ## Technologies
 
