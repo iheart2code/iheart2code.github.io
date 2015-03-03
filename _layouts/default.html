@@ -7,6 +7,14 @@
 
         {% include header.html %}
 
+        {% if page.technologies %}
+        <div class="subheader">
+            <div class="content">
+                {{ page.technologies }}
+            </div>
+        </div>
+        {% endif %}
+
         <div class="container">
 
             <div class="content">

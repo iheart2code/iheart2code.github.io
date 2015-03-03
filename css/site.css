@@ -38,6 +38,13 @@ header > .content > .subtitle {
     font-weight: 300;
 }
 
+.subheader {
+    background-color: #98A0A5;
+    color: white;
+    font-size: large;
+    padding: 20px 0;
+}
+
 /* Nav bar */
 
 #nav {
