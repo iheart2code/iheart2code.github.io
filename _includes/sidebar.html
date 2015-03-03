@@ -4,11 +4,23 @@
     	<img src="{{ "/assets/images/avatar.jpg" | prepend: site.baseurl }}" />
     </div>
 
+    {% if page.roles %}
+    <h3>Roles &amp; Responsibilities</h3>
+    
+    <ul>
+	    {% for role in page.roles %}
+    	<li>{{ role }}</li>
+	    {% endfor %}
+    </ul>
+    {% else %}
+
     <p>I am currently working as a Senior Mobile Developer for <a href="http://www.idean.com/" target="_blank">Idean</a> in Palo Alto, CA.</p>
 
 	<p>I serve as a switch hitter, providing expertise in iOS, Android, and web development as well as serving in a senior role. I am currently focusing my efforts on iOS development and leading Idean's mobile team.</p>
 
 	<p>I have a history of development on the front-end, back-end, &amp; in the prototype field. I also dabble a bit in Linux server administration, with some experience in database design &amp; management.</p>
+
+	{% endif %}
 
 	<a href="mailto://jeremy.ro.white@gmail.com" class="contact_button">Contact Me</a>
 
