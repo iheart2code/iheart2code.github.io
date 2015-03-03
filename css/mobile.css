@@ -1,0 +1,33 @@
+#nav {
+	width: 100%;
+    text-align: center;
+}
+
+header > .content > .title, .subtitle {
+    width: 100%;
+    text-align: center;
+}
+
+.page_content {
+    float: none;
+    width: 100%;
+}
+
+.sidebar {
+    float: none;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.sidebar > .contact_button {
+	display: none;
+}
+
+.logos {
+	padding: 0 0 20px 0;
+}
+
+.logos a {
+    display: block;
+    padding: 30px;
+}

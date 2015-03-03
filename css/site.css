@@ -3,6 +3,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    color: #2B2C30;
 }
 
 strong {
@@ -35,6 +36,7 @@ header > .content > .title {
 
 header > .content > .subtitle {
     font-size: x-large;
+    padding-bottom: 20px;
     font-weight: 300;
 }
 
@@ -70,37 +72,8 @@ ul#nav {
     padding: 20px;
 }
 
-/* Nav bar drop down support */
-
-ul#nav ul {
-    display:none;
-    float: right;
-    position:absolute;
-    top:100%;
-    right:0;
-    background:#2F3E55;
-}
-
-ul#nav li:hover > ul {
-    display: block;
-}
-
-ul#nav ul li {
-    position:relative;
-    display: block;
-    padding: 10px;
-    width: 200px;
-    text-align: right;
-}
-
-ul#nav ul a {
-    line-height:120%;
-    padding:10px 15px
-}
-
-ul#nav ul ul {
-    top:0;
-    left:100%
+#nav li.selected {
+    font-weight: 800;
 }
 
 /* Content */
