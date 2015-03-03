@@ -3,6 +3,7 @@ layout: default
 header_title: _____________ Developer
 header_subtitle: I serve as a switch hitter, providing expertise in iOS, Android, and web development as well as serving in a senior role.
 has_sidebar: true
+group: about
 ---
 Currently, I develop in Objective-C on a daily basis, but I am fairly adaptable when it comes to languages and technologies. I have a working knowledge of development for iOS, Android, web, and some back-end technologies.
 

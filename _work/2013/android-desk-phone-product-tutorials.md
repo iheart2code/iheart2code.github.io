@@ -10,6 +10,7 @@ status: publish
 type: post
 published: true
 has_sidebar: true
+group: work
 blurb: Series of short video tutorials onboarding users to features of new desk phone.
 technologies: Adobe Flash, ActionScript 3, GreenSock animation platform, motion graphics animation, After Effects CS6
 roles:

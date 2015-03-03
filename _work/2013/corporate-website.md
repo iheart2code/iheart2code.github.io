@@ -10,6 +10,7 @@ status: publish
 type: post
 published: true
 has_sidebar: true
+group: work
 blurb: Front-facing corporate website to spec from designers. Ensured a consistent experience across different browsers, operating systems, device types, and screen sizes.
 technologies: HTML5, Canvas, CSS 2 &amp; 3, JavaScript, jQuery, Skrollr, CreateJS, lightbox, GreenSock Animation Platform, deep linking, web fonts, Google Maps API, YouTube API
 roles:

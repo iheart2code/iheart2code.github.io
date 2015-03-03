@@ -12,6 +12,7 @@ tags:
 type: post
 published: true
 has_sidebar: true
+group: work
 blurb: Led architecture &amp; implementation of normalized, cross-platform, multi-protocol SDK for second screen devices.
 technologies: Objective-C, Android, Java, JavaScript, HTML, CSS, JSON, WebSockets, BSD Sockets, webOS, SSDP, DLNA, DIAL, Netcast, UDAP, AirPlay, Chromecast (Cast SDK), Samsung Multiscreen SDK, Roku
 roles:

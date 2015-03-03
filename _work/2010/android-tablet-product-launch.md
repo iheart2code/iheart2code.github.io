@@ -10,6 +10,7 @@ status: publish
 type: post
 published: true
 has_sidebar: true
+group: work
 blurb: High stakes Android tablet product launch demo. Demo was presented during the Cisco Live! keynote in 2010.
 technologies: Adobe Flash, ActionScript 3, Android, Hand-built prototype, Linux, Moblin, Cisco Cius, peer-to-peer networking, live video streaming, Adobe Flash Media Server, wireless and wired network configuration
 roles:

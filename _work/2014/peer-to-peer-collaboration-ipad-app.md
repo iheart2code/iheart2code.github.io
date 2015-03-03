@@ -10,6 +10,7 @@ tags:
 type: post
 published: true
 has_sidebar: true
+group: work
 blurb: An iPad application to serve as a mobility news hub, providing mobility surveys and interactive workshops.
 technologies: iOS 7, Objective-C, peer-to-peer, Multi-Peer Connectivity Framework (iBeacon), Core Data, Auto Layout, AFNetworking, collection views, password encryption, CocoaPods, ReactiveCocoa, blocks, Git, Node
 roles:

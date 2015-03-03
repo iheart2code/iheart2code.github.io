@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 has_sidebar: true
+group: work
 blurb: Demo of new consumer telepresence system and content delivery platform. Developed under short timeline for keynote audience.
 technologies: Adobe Flash, ActionScript 3, iOS, Objective-C, Android, Flip HD Camera
 roles:

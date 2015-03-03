@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 has_sidebar: true
+group: work
 blurb: Internal, online database for managing acting and voice talent. Application included system-wide search, user account management with multiple user roles, rating system, filters, file upload to Amazon S3, and multimedia storage and playback.
 technologies: Ruby on Rails, Heroku, Amazon S3, HTML, CSS, JavaScript, jQuery, PostgreSQL, Twitter Bootstrap
 roles:
