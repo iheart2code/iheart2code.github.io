@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+    {% include head.html %}
 
-<body>
-
-    <div class="container">
+    <body>
 
         {% include header.html %}
 
-        <div class="content">
+        <div class="container">
 
-            {% if page.has_sidebar == true %}
+            <div class="content">
 
-            <div class="page_content">
+                {% if page.has_sidebar == true %}
+
+                <div class="page_content">
+                    {{ content }}
+                </div>
+
+                {% include sidebar.html %}
+                {% else %}
                 {{ content }}
-            </div>
+                {% endif %}
 
-            {% include sidebar.html %}
-            {% else %}
-            {{ content }}
-            {% endif %}
+            </div>
 
         </div>
 
         {% include footer.html %}
 
-    </div>
+        {% include foot.html %}
 
-    {% include foot.html %}
-
-</body>
+    </body>
 
 </html>
