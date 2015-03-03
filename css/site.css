@@ -103,11 +103,10 @@ ul#nav ul ul
 
 .content {
     max-width: 1215px;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
 }
 
 .page_content {
-    display: inline-block;
     float: left;
     width: 75%;
 }
@@ -132,8 +131,7 @@ ul#nav ul ul
 /* Sidebar */
 
 .sidebar {
-    display: inline-block;
-    float: left;
+    float: right;
     width: 25%;
 }
 
