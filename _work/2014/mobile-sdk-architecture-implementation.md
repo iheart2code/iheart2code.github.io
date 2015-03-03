@@ -13,23 +13,8 @@ type: post
 published: true
 has_sidebar: true
 blurb: Led architecture &amp; implementation of normalized, cross-platform, multi-protocol SDK for second screen devices.
----
-## Overview
-
-Led architecture &amp; implementation of normalized, cross-platform, multi-protocol SDK for second screen devices called [Connect SDK](http://www.connectsdk.com/).
-
-Connect SDK is an open source framework that connects your mobile apps with multiple TV platforms. Because most TV platforms support a variety of protocols, Connect SDK integrates and abstracts the discovery and connectivity between all supported protocols. Designed to support the growth of the SDK to include any discoverable, non-TV device type (wireless speakers, thermostats, light bulbs, cars, etc).
-
-## Technologies
-
-### Languages
-Objective-C, Android, Java, JavaScript, HTML, CSS, JSON, WebSockets, BSD Sockets
-
-### Platforms
-webOS, SSDP, DLNA, DIAL, Netcast, UDAP, AirPlay, Chromecast (Cast SDK), Samsung Multiscreen SDK, Roku
-
-## Roles &amp; responsibilities
-
+technologies: Objective-C, Android, Java, JavaScript, HTML, CSS, JSON, WebSockets, BSD Sockets, webOS, SSDP, DLNA, DIAL, Netcast, UDAP, AirPlay, Chromecast (Cast SDK), Samsung Multiscreen SDK, Roku
+roles:
 - Lead SDK Engineer, iOS &amp; Android
 - Lead architecture planning for Connect SDK
 - Implemented iOS SDK
@@ -39,6 +24,10 @@ webOS, SSDP, DLNA, DIAL, Netcast, UDAP, AirPlay, Chromecast (Cast SDK), Samsung 
 - Generate quick POCs &amp; support ad hoc demos to stakeholders, business teams, &amp; executives
 - Demo support for tradeshows (CES 2014, AppsWorld 2014)
 - Documentation, tutorials, Q&amp;A
+---
+Led architecture &amp; implementation of normalized, cross-platform, multi-protocol SDK for second screen devices called [Connect SDK](http://www.connectsdk.com/).
+
+Connect SDK is an open source framework that connects your mobile apps with multiple TV platforms. Because most TV platforms support a variety of protocols, Connect SDK integrates and abstracts the discovery and connectivity between all supported protocols. Designed to support the growth of the SDK to include any discoverable, non-TV device type (wireless speakers, thermostats, light bulbs, cars, etc).
 
 ## Project materials
 
@@ -65,5 +54,8 @@ webOS, SSDP, DLNA, DIAL, Netcast, UDAP, AirPlay, Chromecast (Cast SDK), Samsung 
 <br />
 --[Variety](http://variety.com/2014/digital/news/lg-unveils-rosetta-stone-open-source-code-for-connected-tv-apps-1201158877/) ([Archived version](/assets/attachments/Connect_SDK_PR-Variety.pdf))
 
+## Web App Demo
 {% include youtube.html contentID="fZ6hFpZDmec" %}
+
+## Media Blaster Demo
 {% include youtube.html contentID="eLlwckLJayM" %}

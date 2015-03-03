@@ -11,17 +11,8 @@ type: post
 published: true
 has_sidebar: true
 blurb: An iPad application to serve as a mobility news hub, providing mobility surveys and interactive workshops.
----
-## Overview
-
-An iPad application to serve as a mobility news hub, providing mobility surveys and interactive workshops.
-
-## Technologies
-
-iOS 7, Objective-C, peer-to-peer, Multi-Peer Connectivity Framework (iBeacon), Core Data, Auto Layout, AFNetworking, collection views, password encryption, CocoaPods, ReactiveCocoa, blocks, Git, Node
-
-## Roles &amp; responsibilities
-
+technologies: iOS 7, Objective-C, peer-to-peer, Multi-Peer Connectivity Framework (iBeacon), Core Data, Auto Layout, AFNetworking, collection views, password encryption, CocoaPods, ReactiveCocoa, blocks, Git, Node
+roles:
 - Development lead, client point-of-contact
 - Build out local peer-to-peer collaboration system using newly available APIs
 - Design cloud peer-to-peer collaboration system for remote users
@@ -31,5 +22,7 @@ iOS 7, Objective-C, peer-to-peer, Multi-Peer Connectivity Framework (iBeacon), C
 - Added issue tracking system
 - Added crash reporting with symbolication &amp; breadcrumbing
 - QA lead, crash analysis, bug resolution
+---
+An iPad application to serve as a mobility news hub, providing mobility surveys and interactive workshops.
 
 App store link: [Accenture Mobility Workshop Application](https://itunes.apple.com/us/app/accenture-mobility-workshop/id816557431?mt=8)
