@@ -135,6 +135,26 @@ ul#nav ul ul
     width: 25%;
 }
 
+.avatar {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.avatar img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
 /* Footer */
 
 footer {
