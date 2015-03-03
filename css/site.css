@@ -11,8 +11,7 @@ strong {
 
 .container {
     width: 100%;
-    margin: 0;
-    padding: 0;
+    margin: 30px 0 0 0;
 }
 
 /* Header */
@@ -87,14 +86,12 @@ ul#nav ul li {
     text-align: right;
 }
 
-ul#nav ul a
-{
+ul#nav ul a {
     line-height:120%;
     padding:10px 15px
 }
 
-ul#nav ul ul
-{
+ul#nav ul ul {
     top:0;
     left:100%
 }
@@ -102,13 +99,15 @@ ul#nav ul ul
 /* Content */
 
 .content {
-    max-width: 1215px;
+    max-width: 1280px;
     margin: 0 auto;
+    padding: 0 30px;
 }
 
 .page_content {
     float: left;
-    width: 75%;
+    width: 71%;
+    line-height: 28px;
 }
 
 /* Includes */
