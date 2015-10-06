@@ -99,9 +99,13 @@ Follow [their installation docs][5] to get xcpretty onto your system.
 4. Click the commit id of the top row to see the build information
 5. Click the build id of the top row to see the build output
 
+You should see something similar to the screen below.
+
+![Success](success.png)
+
 ### 8. Configure Provisioning
 
-At this point, you probably have a working CI process, but your builds are failing due to a provisioning error. You will have to modify the build script to include references to your team &amp; provisioning profile.
+At this point, you should have a working CI process, but your builds may be failing due to a provisioning error. You will have to modify the build script to include references to your team &amp; provisioning profile.
 
 Check out the following for more info on the [xcodebuild arguments][7].
 
