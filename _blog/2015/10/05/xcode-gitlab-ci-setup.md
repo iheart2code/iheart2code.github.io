@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postWithComments
 title: Continuous Integration with Xcode &amp; GitLab
 date: 2015-10-05
 tags:
