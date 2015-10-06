@@ -118,11 +118,14 @@ When learning something new, I like to make subtle changes to see how/if things 
 - check out [xcpretty's options][5] and tweak the output
 - check out the different flags for [GitLab CI's YAML config file][6]
 
-There are lots of different possibilities with GitLab CI. Some topics I may explore in the future include:
+There are lots of different possibilities with GitLab CI.
 
 - static analysis &amp; linting
 - adding a test phase for unit &amp; UI tests
 - continuous deployment
+- automatically increase version number, merge with master, archive IPA, and deploy on push to develop branch
+
+I am still exploring the possibilities and will try to include more posts in the future on this topic.
 
   [0]: https://about.gitlab.com/gitlab-ci/
   [1]: https://about.gitlab.com/downloads/
