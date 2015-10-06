@@ -31,7 +31,3 @@ header > .content > .title, .subtitle {
     display: block;
     padding: 30px;
 }
-
-article img {
-	max-width: 100%;
-}
