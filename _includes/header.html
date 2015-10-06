@@ -11,6 +11,13 @@
         {% else %}
         <li><a href="/work">Work</a></li>
         {% endif %}
+
+        {% if page.group == 'blog' %}
+        <li class="selected"><a href="/blog">Blog</a></li>
+        {% else %}
+        <li><a href="/blog">Blog</a></li>
+        {% endif %}
+
         <li><a href="https://docs.google.com/document/d/1ahlylYrpsFdsRMwMQP3KiTlGReKeXN7K1y7JZMNEmu4" target="_blank">Resume</a></li>
     </ul>
 

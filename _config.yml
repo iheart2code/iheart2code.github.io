@@ -9,7 +9,7 @@ url: "https://thejeremywhite.com"
 enforce_ssl: thejeremywhite.com
 
 # Collections
-collections: 
+collections:
   blog:
     output: true
     permalink: /:collection/:path.html

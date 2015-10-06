@@ -1,0 +1,22 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+header_title: Blog
+header_subtitle: Infrequent discoveries, observations, &amp; Ramblings
+group: blog
+---
+
+{% for post in site.blog %}
+
+<div class="post_abstract">
+
+    <a href="{{ post.url | prepend: site.baseurl }}" class="post_title"><h1>{{ post.title }}</h1></a>
+
+    <p>{{ post.blurb }}</p>
+
+    <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+
+</div>
+
+{% endfor %}
