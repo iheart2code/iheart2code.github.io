@@ -17,7 +17,7 @@ roles:
 - Development lead
 - QA lead, crash analysis, bug resolution
 ---
-Lock screen replacement and notification widgets to control the devices in a connected home. The app is currently in development and we are [working towards a release](http://www.iwantreach.com/) on the Google Play store.
+Lock screen replacement and notification widgets to control the devices in a connected home. The app has been [released as a beta](https://play.google.com/store/apps/details?id=com.iwantreach) on the Google Play store.
 
 #### Supported devices
 
