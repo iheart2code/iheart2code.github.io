@@ -24,3 +24,9 @@ Led architecture and implmentation of turn-by-turn navigation feature in an iOS 
 I interviewed & selected two iOS developers for the team and worked half time in a lead capacity. I also contributed code for some of the more challenging areas of the project: multiple orientations, API integration to cleanup waypoints into a proper navigation route, view controller transitions, and gesture-controlled navigation.
 
 Further details of this project are under NDA.
+
+## Screenshots
+
+![Screenshots 1](/assets/images/tbt-navigation-1.png)
+
+![Screenshots 2](/assets/images/tbt-navigation-2.png)
